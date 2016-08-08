@@ -6,6 +6,7 @@ const getCounters = require('ricoh-counter');
 const program = require('commander');
 const packageVersion = require('../package.json').version;
 
+
 program
     .version(packageVersion)
     .option('-c, --config <path>', 'Config path')
