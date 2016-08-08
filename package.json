@@ -1,6 +1,6 @@
 {
   "name": "batch-ricoh-counter",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Command line tool to fetch RICOH printer counters in batch.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -4,7 +4,8 @@ const fs = require('fs');
 const Promise = require('bluebird');
 const getCounters = require('ricoh-counter');
 const program = require('commander');
-const packageVersion = require('../package.json').version;
+// const packageVersion = require('../package.json').version;
+const packageVersion = '0.0.6';
 
 program
     .version(packageVersion)
