@@ -1,0 +1,38 @@
+{
+  "name": "batch-ricoh-counter",
+  "version": "0.0.1",
+  "description": "Commande line tool to fetch RICOH printer counters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "commander": "^2.9.0",
+    "ricoh-counter": "0.0.1"
+  },
+  "keywords": [
+    "ricoh",
+    "aficio",
+    "printer",
+    "counters",
+    "snmp-counters"
+  ],
+  "author": "Jacques Lareau <jacques.lareau@adfdiesel.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ADFDiesel/batch-ricoh-counter/issues",
+    "email": "jacques.lareau@adfdiesel.com"
+  },
+  "homepage": "https://github.com/ADFDiesel/batch-ricoh-counter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ADFDiesel/batch-ricoh-counter.git"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "bin": {
+    "batch-ricoh-counter": "./lib/batch-ricoh-counter.js"
+  }
+}
