@@ -1,6 +1,6 @@
 {
   "name": "batch-ricoh-counter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Command line tool to fetch RICOH printer counters in batch.",
   "main": "lib/batch-ricoh-counter.js",
   "scripts": {
