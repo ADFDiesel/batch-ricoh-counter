@@ -12,8 +12,8 @@ program
     .parse(process.argv);
 
 try {
-    var configFile = fs.readFileSync(program.config);
-    var config = JSON.parse(configFile);
+    let configFile = fs.readFileSync(program.config);
+    let config = JSON.parse(configFile);
 } catch (e) {
     console.error('Cannot load config file.');
     process.exit();
@@ -21,12 +21,12 @@ try {
 
 function outputData(counterData, separator) {
 
-    var header = ['Serial','Model','Host','Total Black','Total Color','Copy black','copy color','print black','print color','fax black'];
+    let header = ['Serial','Model','Host','Total Black','Total Color','Copy black','copy color','print black','print color','fax black'];
     console.log(header.join(separator));
 
     counterData.forEach(printer => {
 
-        var row;
+        let row;
 
         if (printer.hasCounterConfig) {
             row = [
@@ -52,8 +52,8 @@ function outputData(counterData, separator) {
 
 }
 
-var counterData = [];
-var getPromises = config.map(printer => { return getCounters(printer); });
+let counterData = [];
+let getPromises = config.map(printer => { return getCounters(printer); });
 
 Promise
     .map(getPromises, result => {

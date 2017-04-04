@@ -9,7 +9,7 @@
   "dependencies": {
     "bluebird": "^3.4.1",
     "commander": "^2.9.0",
-    "ricoh-counter": "0.0.1"
+    "ricoh-counter": "0.0.2"
   },
   "keywords": [
     "ricoh",
@@ -30,7 +30,7 @@
     "url": "https://github.com/ADFDiesel/batch-ricoh-counter.git"
   },
   "engines": {
-    "node": ">=5.0.0"
+    "node": ">=7.0.0"
   },
   "bin": "./bin/batch-ricoh-counter.js"
 }
